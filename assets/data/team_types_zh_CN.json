@@ -1,0 +1,210 @@
+[
+    {
+        "text": "互联网",
+        "value": 1
+    },
+    {
+        "text": "采矿",
+        "value": 2
+    },
+    {
+        "text": "能源",
+        "value": 3
+    },
+    {
+        "text": "餐饮",
+        "value": 4
+    },
+    {
+        "text": "宾馆",
+        "value": 5
+    },
+    {
+        "text": "电讯业",
+        "value": 6
+    },
+    {
+        "text": "房地产",
+        "value": 7
+    },
+    {
+        "text": "服务",
+        "value": 8
+    },
+    {
+        "text": "服装业",
+        "value": 9
+    },
+    {
+        "text": "公益组织",
+        "value": 10
+    },
+    {
+        "text": "广告业",
+        "value": 11
+    },
+    {
+        "text": "航空航天",
+        "value": 12
+    },
+    {
+        "text": "化学",
+        "value": 13
+    },
+    {
+        "text": "健康",
+        "value": 14
+    },
+    {
+        "text": "保健",
+        "value": 15
+    },
+    {
+        "text": "建筑业",
+        "value": 16
+    },
+    {
+        "text": "教育",
+        "value": 17
+    },
+    {
+        "text": "培训",
+        "value": 18
+    },
+    {
+        "text": "计算机",
+        "value": 19
+    },
+    {
+        "text": "金属冶炼",
+        "value": 20
+    },
+    {
+        "text": "警察",
+        "value": 21
+    },
+    {
+        "text": "消防",
+        "value": 22
+    },
+    {
+        "text": "军人",
+        "value": 23
+    },
+    {
+        "text": "会计",
+        "value": 24
+    },
+    {
+        "text": "美容",
+        "value": 25
+    },
+    {
+        "text": "媒体",
+        "value": 26
+    },
+    {
+        "text": "出版",
+        "value": 27
+    },
+    {
+        "text": "木材",
+        "value": 28
+    },
+    {
+        "text": "造纸",
+        "value": 29
+    },
+    {
+        "text": "零售",
+        "value": 30
+    },
+    {
+        "text": "批发",
+        "value": 31
+    },
+    {
+        "text": "农业",
+        "value": 32
+    },
+    {
+        "text": "旅游业",
+        "value": 33
+    },
+    {
+        "text": "司法",
+        "value": 34
+    },
+    {
+        "text": "律师",
+        "value": 35
+    },
+    {
+        "text": "司机",
+        "value": 36
+    },
+    {
+        "text": "体育运动",
+        "value": 37
+    },
+    {
+        "text": "学术研究",
+        "value": 38
+    },
+    {
+        "text": "演艺",
+        "value": 39
+    },
+    {
+        "text": "医疗服务",
+        "value": 40
+    },
+    {
+        "text": "艺术",
+        "value": 41
+    },
+    {
+        "text": "设计",
+        "value": 42
+    },
+    {
+        "text": "银行",
+        "value": 43
+    },
+    {
+        "text": "金融",
+        "value": 44
+    },
+    {
+        "text": "保险业",
+        "value": 45
+    },
+    {
+        "text": "音乐舞蹈",
+        "value": 46
+    },
+    {
+        "text": "邮政快递",
+        "value": 47
+    },
+    {
+        "text": "运输业",
+        "value": 48
+    },
+    {
+        "text": "政府机构",
+        "value": 49
+    },
+    {
+        "text": "机械制造",
+        "value": 50
+    },
+    {
+        "text": "咨询",
+        "value": 51
+    },
+    {
+        "text": "其他",
+        "value": 52
+    }
+]

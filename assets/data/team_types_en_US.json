@@ -1,0 +1,210 @@
+[
+    {
+        "text": "Internet",
+        "value": 1
+    },
+    {
+        "text": "Mining",
+        "value": 2
+    },
+    {
+        "text": "Energy",
+        "value": 3
+    },
+    {
+        "text": "Food",
+        "value": 4
+    },
+    {
+        "text": "Hotel",
+        "value": 5
+    },
+    {
+        "text": "Telecommunications Industry",
+        "value": 6
+    },
+    {
+        "text": "Real Estate",
+        "value": 7
+    },
+    {
+        "text": "Service",
+        "value": 8
+    },
+    {
+        "text": "Clothing Industry",
+        "value": 9
+    },
+    {
+        "text": "Non-profit organization",
+        "value": 10
+    },
+    {
+        "text": "Advertising Industry",
+        "value": 11
+    },
+    {
+        "text": "Aerospace",
+        "value": 12
+    },
+    {
+        "text": "Chemistry",
+        "value": 13
+    },
+    {
+        "text": "Health",
+        "value": 14
+    },
+    {
+        "text": "Health",
+        "value": 15
+    },
+    {
+        "text": "Construction Industry",
+        "value": 16
+    },
+    {
+        "text": "Education",
+        "value": 17
+    },
+    {
+        "text": "Training",
+        "value": 18
+    },
+    {
+        "text": "Computer",
+        "value": 19
+    },
+    {
+        "text": "Metal Smelting",
+        "value": 20
+    },
+    {
+        "text": "Police",
+        "value": 21
+    },
+    {
+        "text": "Fire",
+        "value": 22
+    },
+    {
+        "text": "Soldier",
+        "value": 23
+    },
+    {
+        "text": "Accounting",
+        "value": 24
+    },
+    {
+        "text": "Beauty",
+        "value": 25
+    },
+    {
+        "text": "Media",
+        "value": 26
+    },
+    {
+        "text": "Publishing",
+        "value": 27
+    },
+    {
+        "text": "Wood",
+        "value": 28
+    },
+    {
+        "text": "Papermaking",
+        "value": 29
+    },
+    {
+        "text": "Retail",
+        "value": 30
+    },
+    {
+        "text": "Wholesale",
+        "value": 31
+    },
+    {
+        "text": "Agriculture",
+        "value": 32
+    },
+    {
+        "text": "Tourism",
+        "value": 33
+    },
+    {
+        "text": "Judicial",
+        "value": 34
+    },
+    {
+        "text": "Lawyer",
+        "value": 35
+    },
+    {
+        "text": "Driver",
+        "value": 36
+    },
+    {
+        "text": "Sports",
+        "value": 37
+    },
+    {
+        "text": "Academic Research",
+        "value": 38
+    },
+    {
+        "text": "Performing Arts",
+        "value": 39
+    },
+    {
+        "text": "Medical Services",
+        "value": 40
+    },
+    {
+        "text": "Art",
+        "value": 41
+    },
+    {
+        "text": "Design",
+        "value": 42
+    },
+    {
+        "text": "Bank",
+        "value": 43
+    },
+    {
+        "text": "Finance",
+        "value": 44
+    },
+    {
+        "text": "Insurance Industry",
+        "value": 45
+    },
+    {
+        "text": "Music and Dance",
+        "value": 46
+    },
+    {
+        "text": "Postal Express",
+        "value": 47
+    },
+    {
+        "text": "Transportation",
+        "value": 48
+    },
+    {
+        "text": "Government Agency",
+        "value": 49
+    },
+    {
+        "text": "Machinery Manufacturing",
+        "value": 50
+    },
+    {
+        "text": "Consulting",
+        "value": 51
+    },
+    {
+        "text": "Other",
+        "value": 52
+    }
+]

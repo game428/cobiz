@@ -1,0 +1,278 @@
+name: cobiz_client
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  
+  shared_preferences: ^0.5.8 #持久化存储
+  connectivity: ^0.4.9+2 #网络状态检测
+  sy_flutter_qiniu_storage:
+    path: plugin/sy_flutter_qiniu_storage #七牛token
+  flutter_cache_manager: ^1.2.2
+  provider: ^4.3.2+2 #状态管理
+  toast: ^0.1.5 #信息提示
+  qr_flutter: ^3.2.0 #二维码
+  cached_network_image: ^2.3.2+1 #图片缓存
+  image_cropper: ^1.3.1 #图片裁剪
+  image_picker: ^0.6.7+8 #图片选择
+  image_gallery_saver: ^1.5.0 #图片保存
+  flutter_native_image: any #图片压缩
+  wechat_assets_picker: ^4.2.1 #仿微信图片多选器
+  video_compress: ^2.0.0 #视频压缩
+  cached_video_player: ^1.0.3 #视频缓存播放
+  sprintf: ^4.1.0
+  permission_handler: ^5.0.1+1 #权限管理
+  easy_contact_picker: ^0.0.2 #通讯录读取
+  extended_text:  ^4.0.0 #特殊文本
+  extended_text_field: ^4.0.0
+  extended_image: ^1.2.0
+  flutter_sound: ^5.1.1 #录音
+  audioplayers: ^0.17.0 #播放音频
+  path_provider: ^1.6.17 #文件路径
+  web_socket_channel: ^1.1.0 #webSocket
+  webview_flutter: ^0.3.22+1 #webView
+  cryptography: ^1.2.1
+  encrypt: ^3.3.1
+  pull_to_refresh: ^1.6.2 #下拉刷新
+  vibration: ^1.4.0 #振动
+  qr_code_scanner: ^0.0.13 #扫一扫
+  flutter_slidable: ^0.5.7 #侧滑删除
+  url_launcher: any 
+  package_info: ^0.4.3 #包名信息
+  flutter_html: ^1.0.2 #html富文本
+  install_plugin: ^2.0.1 #下载apk
+  dio: ^3.0.10 #
+  extended_nested_scroll_view: ^1.0.1 #可滑动头部修复
+  flutter_swiper: ^1.0.6 #轮播
+  mobpush_plugin: ^1.1.6
+  jpush_flutter: ^0.6.1
+  scan: ^0.0.5 #图片识别二维码
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_intl:
+  enabled: true
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/msg_sound.mp3
+    - assets/images/emoji/
+    
+    - assets/images/qr_photo.png
+    - assets/images/b_refresh.png
+    - assets/images/b_browser_ios.png
+    - assets/images/b_browser.png
+    - assets/images/b_copy.png
+    - assets/images/b_forward.png
+    - assets/images/org2.png
+    - assets/images/tg.png
+    - assets/images/noteam_bg.png
+    - assets/images/chat_img_def.png
+    - assets/images/no_msg.png
+    - assets/images/ic_qrcode.png
+    - assets/images/no_content.png
+    - assets/images/tabbar_contacts_c.png
+    - assets/images/tabbar_contacts_s.png
+    - assets/images/tabbar_discover_c.png
+    - assets/images/tabbar_discover_s.png
+    - assets/images/tabbar_chat_c.png
+    - assets/images/tabbar_chat_s.png
+    - assets/images/tabbar_me_c.png
+    - assets/images/tabbar_me_s.png
+    - assets/images/def_avatar.png
+    - assets/images/favorite.webp
+    - assets/images/ic_delete.webp
+    - assets/images/ic_round_close.png
+    - assets/images/default.jpg
+    - assets/images/change2.png
+    - assets/images/cobiz.png
+    - assets/images/cobiz_1.png
+    - assets/images/cobiz_2.png
+    - assets/images/cobiz_g.png
+    - assets/images/contacts.png
+    - assets/images/ic_add.png
+    - assets/images/ic_add_white.png
+    - assets/images/ic_arrow_down.png
+    - assets/images/ic_arrow_right.png
+    - assets/images/ic_chat.png
+    - assets/images/ic_delete.png
+    - assets/images/ic_edit.png
+    - assets/images/ic_important.png
+    - assets/images/ic_scan.png
+    - assets/images/ic_server.png
+    - assets/images/light_off.png
+    - assets/images/light_on.png
+    - assets/images/pay_receipt.png
+    - assets/images/phone.png
+    - assets/images/qrcode.png
+    - assets/images/search.png
+    - assets/images/tick_no.png
+    - assets/images/tick_yes.png
+    
+    - assets/images/eye_open.png
+    - assets/images/eye_close.png
+    - assets/images/chat/keyboard.png
+    - assets/images/chat/voice.png
+    - assets/images/add_group.png
+    - assets/images/chat/fire_selected.png
+    - assets/images/chat/emoji.png
+    - assets/images/chat/safety.png
+    - assets/images/chat/more.png
+    - assets/images/chat/pc.png
+    - assets/images/chat/ic_cusp1.png
+    - assets/images/chat/ic_cusp2.png
+    - assets/images/chat/ic_revoke.png
+    - assets/images/chat/voice_volume_1.webp
+    - assets/images/chat/voice_volume_2.webp
+    - assets/images/chat/voice_volume_3.webp
+    - assets/images/chat/voice_volume_4.webp
+    - assets/images/chat/voice_volume_5.webp
+    - assets/images/chat/voice_volume_6.webp
+    - assets/images/chat/voice_volume_7.webp
+    - assets/images/chat/sound_right_3.png
+    - assets/images/chat/sound_right_1.png
+    - assets/images/chat/sound_right_2.png
+    - assets/images/chat/sound_left_3.png
+    - assets/images/chat/sound_left_1.png
+    - assets/images/chat/sound_left_2.png
+    - assets/images/chat/ic_load.gif
+    - assets/images/chat/ic_load_green.gif
+    - assets/images/chat/ic_load_white.gif
+    - assets/images/chat/img_down.png
+    - assets/images/chat/img_share.png
+
+    - assets/images/chat/extend/approve.png
+    - assets/images/chat/extend/calendar.png
+    - assets/images/chat/extend/camera.png
+    - assets/images/chat/extend/data.png
+    - assets/images/chat/extend/folder.png
+    - assets/images/chat/extend/location.png
+    - assets/images/chat/extend/log.png
+    - assets/images/chat/extend/note.png
+    - assets/images/chat/extend/pic.png
+    - assets/images/chat/extend/red_envelope.png
+    - assets/images/chat/extend/video.png
+    - assets/images/chat/extend/user_card.png
+    - assets/images/chat/ic_speaker.png
+    - assets/images/chat/play.png
+
+    - assets/images/mine/font_size.png
+    - assets/images/mine/backup.png
+    - assets/images/mine/ecs.png
+    - assets/images/mine/email.png
+    - assets/images/mine/forward.png
+    - assets/images/mine/language.png
+    - assets/images/mine/password.png
+    - assets/images/mine/phone.png
+    - assets/images/mine/real_name.png
+    - assets/images/mine/service.png
+    - assets/images/mine/setting.png
+    - assets/images/mine/sound.png
+    - assets/images/mine/telegram.png
+    - assets/images/mine/warn.png
+    - assets/images/mine/ic_error.png
+    - assets/images/mine/ic_success.png
+    - assets/images/mine/ic_wait.png
+    - assets/images/mine/id_card_1.png
+    - assets/images/mine/id_card_2.png
+    - assets/images/mine/id_card_3.png
+    - assets/images/mine/id_card_bor.png
+    - assets/images/mine/clear_cache.png
+    - assets/images/mine/black_list.png
+    - assets/images/mine/certified.png
+    - assets/images/mine/feedback.png
+
+    - assets/images/team/app.png
+    - assets/images/team/branch1.png
+    - assets/images/team/branch2.png
+    - assets/images/team/branch3.png
+    - assets/images/team/ic_structure.png
+    - assets/images/team/my_contact.png
+    - assets/images/team/nearby.png
+    - assets/images/team/new_member.png
+    - assets/images/team/org.png
+    - assets/images/team/setting.png
+    - assets/images/team/team.png
+    - assets/images/team/team_bg.png
+    - assets/images/team/calendar_white.png
+    - assets/images/team/appro.png
+    - assets/images/team/log.png
+    - assets/images/team/work.png
+    - assets/images/team/task.png
+
+    - assets/images/work/d_hook.png
+    - assets/images/work/expense.png
+    - assets/images/work/general_approval.png
+    - assets/images/work/ic_call.png
+    - assets/images/work/ic_chat_small.png
+    - assets/images/work/ic_enclosure.png
+    - assets/images/work/ic_file.png
+    - assets/images/work/ic_leave.png
+    - assets/images/work/ic_picture.png
+    - assets/images/work/ic_praise.png
+    - assets/images/work/ic_round_add.png
+    - assets/images/work/ic_round_right.png
+    - assets/images/work/ic_round_wrong.png
+    - assets/images/work/plus.png
+    - assets/images/work/plus_dotted.png
+    - assets/images/work/report_daily.png
+    - assets/images/work/report_month.png
+    - assets/images/work/report_week.png
+    - assets/images/work/s_hook.png
+    - assets/images/work/docx.png
+    - assets/images/work/pptx.png
+    - assets/images/work/psd.png
+    - assets/images/work/wav.png
+    - assets/images/work/xlsx.png
+    - assets/images/work/zip.png
+    - assets/images/work/other_file.png
+    - assets/images/work/pending.png
+    - assets/images/work/processed.png
+    - assets/images/work/initiated.png
+    - assets/images/work/copy_me.png
+    - assets/images/work/edit.png
+    - assets/images/work/evection.png
+    - assets/images/work/logList.png
+    - assets/images/work/task.png
+    - assets/images/work/log_icon.png
+    - assets/images/work/meeting.png
+
+    - assets/data/team_types_zh_CN.json
+    - assets/data/team_types_zh_TW.json
+    - assets/data/team_types_en_US.json
+    - assets/data/region_en_US.json
+    - assets/data/region_zh_CN.json
+    - assets/data/region_zh_HK.json
+    - assets/data/region_zh_TW.json
+    - assets/data/tel_code_zh_CN.json
+    - assets/data/tel_code_zh_TW.json
+    - assets/data/tel_code_en_US.json

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Cobiz</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Your consent is required for the app to access the media database</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>You need your consent before the APP can access Bluetooth</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Provide schedule reminder</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Use your camera</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Use contacts for add friends</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Your consent is required for APP to access health sharing</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Your consent is required for the APP to access health updates </string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Use location for add friends</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Always use location for add friends always</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Use location for add friends</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Use location for add friends</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Use microphone for send voice</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Statistics traffic and file occupancy</string>
+	<key>NSNetworkVolumesUsageDescription</key>
+	<string>States network</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Use photo libray for send file</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Your consent is required for the app to access reminders</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Speech to text input support</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>io.flutter.embedded_views_preview</key>
+	<true/>
+</dict>
+</plist>

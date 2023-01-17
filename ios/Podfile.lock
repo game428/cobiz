@@ -1,0 +1,242 @@
+PODS:
+  - audioplayers (0.0.1):
+    - Flutter
+  - cached_video_player (0.0.1):
+    - Flutter
+    - KTVHTTPCache (~> 2.0.0)
+  - CocoaAsyncSocket (7.6.4)
+  - connectivity (0.0.1):
+    - Flutter
+    - Reachability
+  - easy_contact_picker (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_native_image (0.0.1):
+    - Flutter
+  - flutter_sound (0.0.1):
+    - Flutter
+    - mobile-ffmpeg-audio (= 4.3.2)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - HappyDNS (0.3.17)
+  - image_cropper (0.0.3):
+    - Flutter
+    - TOCropViewController (~> 2.5.4)
+  - image_gallery_saver (1.5.0):
+    - Flutter
+  - image_picker (0.0.1):
+    - Flutter
+  - install_plugin (0.0.1):
+    - Flutter
+  - JCore (2.3.4)
+  - JPush (3.3.6):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - jpush_flutter (0.0.2):
+    - Flutter
+    - JPush
+  - KTVCocoaHTTPServer (1.0.0):
+    - CocoaAsyncSocket
+  - KTVHTTPCache (2.0.1):
+    - KTVCocoaHTTPServer
+  - mob_pushsdk (3.0.1):
+    - mob_pushsdk/MobPush (= 3.0.1)
+    - MOBFoundation
+  - mob_pushsdk/MobPush (3.0.1):
+    - MOBFoundation
+  - MOBFoundation (3.2.19)
+  - mobile-ffmpeg-audio (4.3.2)
+  - mobpush_plugin (1.0.7):
+    - Flutter
+    - mob_pushsdk
+  - MTBBarcodeScanner (5.0.11)
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - "permission_handler (5.0.1+1)":
+    - Flutter
+  - photo_manager (0.0.1):
+    - Flutter
+  - Qiniu (8.0.0):
+    - HappyDNS (~> 0.3.17)
+  - qr_code_scanner (0.0.2):
+    - Flutter
+    - MTBBarcodeScanner
+  - Reachability (3.2)
+  - screen (0.0.1):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
+  - sy_flutter_qiniu_storage (0.0.1):
+    - Flutter
+    - Qiniu
+  - TOCropViewController (2.5.4)
+  - url_launcher (0.0.1):
+    - Flutter
+  - vibration (1.7.1):
+    - Flutter
+  - video_compress (0.3.0):
+    - Flutter
+  - video_player (0.0.1):
+    - Flutter
+  - wakelock (0.0.1):
+    - Flutter
+  - webview_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - audioplayers (from `.symlinks/plugins/audioplayers/ios`)
+  - cached_video_player (from `.symlinks/plugins/cached_video_player/ios`)
+  - connectivity (from `.symlinks/plugins/connectivity/ios`)
+  - easy_contact_picker (from `.symlinks/plugins/easy_contact_picker/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_native_image (from `.symlinks/plugins/flutter_native_image/ios`)
+  - flutter_sound (from `.symlinks/plugins/flutter_sound/ios`)
+  - image_cropper (from `.symlinks/plugins/image_cropper/ios`)
+  - image_gallery_saver (from `.symlinks/plugins/image_gallery_saver/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - install_plugin (from `.symlinks/plugins/install_plugin/ios`)
+  - jpush_flutter (from `.symlinks/plugins/jpush_flutter/ios`)
+  - mobpush_plugin (from `.symlinks/plugins/mobpush_plugin/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - photo_manager (from `.symlinks/plugins/photo_manager/ios`)
+  - qr_code_scanner (from `.symlinks/plugins/qr_code_scanner/ios`)
+  - screen (from `.symlinks/plugins/screen/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - sy_flutter_qiniu_storage (from `.symlinks/plugins/sy_flutter_qiniu_storage/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+  - vibration (from `.symlinks/plugins/vibration/ios`)
+  - video_compress (from `.symlinks/plugins/video_compress/ios`)
+  - video_player (from `.symlinks/plugins/video_player/ios`)
+  - wakelock (from `.symlinks/plugins/wakelock/ios`)
+  - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - FMDB
+    - HappyDNS
+    - JCore
+    - JPush
+    - KTVCocoaHTTPServer
+    - KTVHTTPCache
+    - mob_pushsdk
+    - MOBFoundation
+    - mobile-ffmpeg-audio
+    - MTBBarcodeScanner
+    - Qiniu
+    - Reachability
+    - TOCropViewController
+
+EXTERNAL SOURCES:
+  audioplayers:
+    :path: ".symlinks/plugins/audioplayers/ios"
+  cached_video_player:
+    :path: ".symlinks/plugins/cached_video_player/ios"
+  connectivity:
+    :path: ".symlinks/plugins/connectivity/ios"
+  easy_contact_picker:
+    :path: ".symlinks/plugins/easy_contact_picker/ios"
+  Flutter:
+    :path: Flutter
+  flutter_native_image:
+    :path: ".symlinks/plugins/flutter_native_image/ios"
+  flutter_sound:
+    :path: ".symlinks/plugins/flutter_sound/ios"
+  image_cropper:
+    :path: ".symlinks/plugins/image_cropper/ios"
+  image_gallery_saver:
+    :path: ".symlinks/plugins/image_gallery_saver/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  install_plugin:
+    :path: ".symlinks/plugins/install_plugin/ios"
+  jpush_flutter:
+    :path: ".symlinks/plugins/jpush_flutter/ios"
+  mobpush_plugin:
+    :path: ".symlinks/plugins/mobpush_plugin/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  photo_manager:
+    :path: ".symlinks/plugins/photo_manager/ios"
+  qr_code_scanner:
+    :path: ".symlinks/plugins/qr_code_scanner/ios"
+  screen:
+    :path: ".symlinks/plugins/screen/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  sy_flutter_qiniu_storage:
+    :path: ".symlinks/plugins/sy_flutter_qiniu_storage/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+  vibration:
+    :path: ".symlinks/plugins/vibration/ios"
+  video_compress:
+    :path: ".symlinks/plugins/video_compress/ios"
+  video_player:
+    :path: ".symlinks/plugins/video_player/ios"
+  wakelock:
+    :path: ".symlinks/plugins/wakelock/ios"
+  webview_flutter:
+    :path: ".symlinks/plugins/webview_flutter/ios"
+
+SPEC CHECKSUMS:
+  audioplayers: 53f0f30789b10ab2009771c6c79def00980945e4
+  cached_video_player: 449b3d85e95316a0eca125c483f6d9e281ccabc3
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  connectivity: c4130b2985d4ef6fd26f9702e886bd5260681467
+  easy_contact_picker: 9ab9dc70e8ddde6e76a19ffc482d7bf899868730
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_native_image: 9c0b7451838484458e5b0fae007b86a4c2d4bdfe
+  flutter_sound: 208f0db5525b6b8cf08ca925a97c3034893835e0
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  HappyDNS: 848ef73e24f2b0e2752064223ce2dc0dd88900ea
+  image_cropper: c8f9b4157933c7bb965a66d1c5e6c8fd408c6eb4
+  image_gallery_saver: 259eab68fb271cfd57d599904f7acdc7832e7ef2
+  image_picker: 9c3312491f862b28d21ecd8fdf0ee14e601b3f09
+  install_plugin: a13e7ddd2bab0c701b48cd359c26d0394125b6fb
+  JCore: 8aa29dc57ba3730dd9fe7544ce1a4e1cbe221135
+  JPush: a401b946dcc76b37335422487201bc1ecc8dd296
+  jpush_flutter: 69133df35eaf9135e540549b154d992c44f8ee44
+  KTVCocoaHTTPServer: df8d7b861e603ff8037e9b2138aca2563a6b768d
+  KTVHTTPCache: 588c3eb16f6bd1e6fde1e230dabfb7bd4e490a4d
+  mob_pushsdk: 5f266bfce36dcfda9abf2651da898735cca7a725
+  MOBFoundation: 606bc4c10ff4c6ac573c09f5081a39c75316bc7b
+  mobile-ffmpeg-audio: 1c003d0918195bba4c21629d543e44e4b5e1e42d
+  mobpush_plugin: 7b5a56692c538bc06e0386916cf7b21f77c1eb09
+  MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  permission_handler: eac8e15b4a1a3fba55b761d19f3f4e6b005d15b6
+  photo_manager: f7c619c2cc8c2adb8d85c63363babac477de9c67
+  Qiniu: b9c638318b8179d01d8dfc745159e4047e8975b7
+  qr_code_scanner: 16107718bdad7d708cdf6a5eacdca24b56cdf471
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  screen: abd91ca7bf3426e1cc3646d27e9b2358d6bf07b0
+  shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
+  sqflite: 4001a31ff81d210346b500c55b17f4d6c7589dd0
+  sy_flutter_qiniu_storage: 3a33fb552bb77f4777d261469111f52ad35307fb
+  TOCropViewController: 2a1ae1242600b1f2d996fd91a5268b2309a33b5c
+  url_launcher: 6fef411d543ceb26efce54b05a0a40bfd74cbbef
+  vibration: 4f4ded27b9d0e21e4110ca43978f057412d28c44
+  video_compress: fce97e4fb1dfd88175aa07d2ffc8a2f297f87fbe
+  video_player: 9cc823b1d9da7e8427ee591e8438bfbcde500e6e
+  wakelock: 0d4a70faf8950410735e3f61fb15d517c8a6efc4
+  webview_flutter: d2b4d6c66968ad042ad94cbb791f5b72b4678a96
+
+PODFILE CHECKSUM: 7368163408c647b7eb699d0d788ba6718e18fb8d
+
+COCOAPODS: 1.9.3

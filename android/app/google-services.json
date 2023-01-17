@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "579223151072",
+    "firebase_url": "https://cobiz-13b28.firebaseio.com",
+    "project_id": "cobiz-13b28",
+    "storage_bucket": "cobiz-13b28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579223151072:android:0d1f1795f5c02a0b054b85",
+        "android_client_info": {
+          "package_name": "io.cobiz.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579223151072-7spit0kr177hepu0i9p0pssg4bl6gomj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.cobiz.client",
+            "certificate_hash": "dc1f2336f1a4bc34645e2e33acd69993acb0f3ae"
+          }
+        },
+        {
+          "client_id": "579223151072-lur4foe4vtbq380bmas784huvanrlm10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQK216rXDuPCkv1J49e4O2hCKvSYUwKek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579223151072-lur4foe4vtbq380bmas784huvanrlm10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

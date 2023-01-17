@@ -1,0 +1,210 @@
+[
+    {
+        "text": "互聯網",
+        "value": 1
+    },
+    {
+        "text": "採礦",
+        "value": 2
+    },
+    {
+        "text": "能源",
+        "value": 3
+    },
+    {
+        "text": "餐飲",
+        "value": 4
+    },
+    {
+        "text": "賓館",
+        "value": 5
+    },
+    {
+        "text": "電訊業",
+        "value": 6
+    },
+    {
+        "text": "房地產",
+        "value": 7
+    },
+    {
+        "text": "服務",
+        "value": 8
+    },
+    {
+        "text": "服裝業",
+        "value": 9
+    },
+    {
+        "text": "公益組織",
+        "value": 10
+    },
+    {
+        "text": "廣告業",
+        "value": 11
+    },
+    {
+        "text": "航空航天",
+        "value": 12
+    },
+    {
+        "text": "化學",
+        "value": 13
+    },
+    {
+        "text": "健康",
+        "value": 14
+    },
+    {
+        "text": "保健",
+        "value": 15
+    },
+    {
+        "text": "建築業",
+        "value": 16
+    },
+    {
+        "text": "教育",
+        "value": 17
+    },
+    {
+        "text": "培訓",
+        "value": 18
+    },
+    {
+        "text": "計算機",
+        "value": 19
+    },
+    {
+        "text": "金屬冶煉",
+        "value": 20
+    },
+    {
+        "text": "警察",
+        "value": 21
+    },
+    {
+        "text": "消防",
+        "value": 22
+    },
+    {
+        "text": "軍人",
+        "value": 23
+    },
+    {
+        "text": "會計",
+        "value": 24
+    },
+    {
+        "text": "美容",
+        "value": 25
+    },
+    {
+        "text": "媒體",
+        "value": 26
+    },
+    {
+        "text": "出版",
+        "value": 27
+    },
+    {
+        "text": "木材",
+        "value": 28
+    },
+    {
+        "text": "造紙",
+        "value": 29
+    },
+    {
+        "text": "零售",
+        "value": 30
+    },
+    {
+        "text": "批發",
+        "value": 31
+    },
+    {
+        "text": "農業",
+        "value": 32
+    },
+    {
+        "text": "旅遊業",
+        "value": 33
+    },
+    {
+        "text": "司法",
+        "value": 34
+    },
+    {
+        "text": "律師",
+        "value": 35
+    },
+    {
+        "text": "司機",
+        "value": 36
+    },
+    {
+        "text": "體育運動",
+        "value": 37
+    },
+    {
+        "text": "學術研究",
+        "value": 38
+    },
+    {
+        "text": "演藝",
+        "value": 39
+    },
+    {
+        "text": "醫療服務",
+        "value": 40
+    },
+    {
+        "text": "藝術",
+        "value": 41
+    },
+    {
+        "text": "設計",
+        "value": 42
+    },
+    {
+        "text": "銀行",
+        "value": 43
+    },
+    {
+        "text": "金融",
+        "value": 44
+    },
+    {
+        "text": "保險業",
+        "value": 45
+    },
+    {
+        "text": "音樂舞蹈",
+        "value": 46
+    },
+    {
+        "text": "郵政快遞",
+        "value": 47
+    },
+    {
+        "text": "運輸業",
+        "value": 48
+    },
+    {
+        "text": "政府機構",
+        "value": 49
+    },
+    {
+        "text": "機械製造",
+        "value": 50
+    },
+    {
+        "text": "諮詢",
+        "value": 51
+    },
+    {
+        "text": "其他",
+        "value": 52
+    }
+]
